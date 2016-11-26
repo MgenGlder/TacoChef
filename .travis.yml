@@ -1,6 +1,6 @@
 before_script:
     - npm install -g gulp
-script: gulp
+# script: gulp will uncomment when we have things to do in gulp
 language: node_js
 node_js:
     - "6"
