@@ -1,1 +1,1 @@
-var require('assert');
+var assert = require('assert');
