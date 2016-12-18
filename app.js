@@ -12,7 +12,7 @@ var app = express();
 
 
 //Making the public js and html and css files public to the browser
-app.use(express.static(path.join(__dirname, 'pubic')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'app_client')));
 
 
